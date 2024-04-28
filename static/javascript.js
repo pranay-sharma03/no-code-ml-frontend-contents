@@ -1,4 +1,3 @@
-console.log("Hello");
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
   if (section) {
@@ -103,6 +102,8 @@ document.addEventListener("DOMContentLoaded", function () {
 const dld_btn = document.getElementById("download-btn");
 dld_btn.addEventListener("click", async () => {
   try {
+    console.log("Starting Download...");
+
     const response = await fetch("/download_code");
     const blob = await response.blob();
 
