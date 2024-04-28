@@ -309,8 +309,6 @@ button {
 
 }
 
-.uploaddiv {}
-
 .redbox {
     background-color: #f6f1f1;
 
@@ -617,4 +615,27 @@ button {
     font-weight: 600;
     color: #007173;
     text-align: center;
+}
+
+.download-btn {
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #007173;
+    border: 1px solid #007173;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    font-weight: bold;
+    border-color: whitesmoke;
+}
+
+.download-btn:active {
+    background-color: #0da9ac;
+    border-width: 2px;
+    padding: 3px 7px;
 }
